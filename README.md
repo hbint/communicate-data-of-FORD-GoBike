@@ -6,7 +6,7 @@ by hamed bintalib
 
 Dataset This document explores the Ford GoBike's trip data for public containing bike rides from April FY2019. The attributes included the trip start/end time, as well as additional measurements such as user type, gender, and age. 16K data points were removed from the analysis due to missing values in some fields, data inconsistent, or outliner issues.
 
-Summary of Findings
+# Summary of Findings
 
 Bike Ride Duration Time: The original duration data has right skew issue - bike durations range from less than 1 minute to 1400+ minutes with median at around 9 min and mean at around 12 min. We have to do some data transformation to make data visualization and data interpretation easier.
 Regarding the bike ride trends and biker types: 2.1) Tuesday, 5:00 PM has the highest biker counts across 7 days, 24 hours. 2.2) 5:00 PM has the most male bikers compared to other hours. 8:00 AM and 5:00 PM have more female bikers compared to other hours. 2.3) 5:00 PM has the most 'Subscriber' bikers compared to other hours. It also has the most 'Customer' bikers compared to other hours. 2.4) Tuesday has the most male bikers compared to other days. It also has the most female bikers compared to other days. 2.5) Tuesday has the most 'Subscriber' bikers compared to other days. Saturday has the most 'Customer' bikers compared to other days.
